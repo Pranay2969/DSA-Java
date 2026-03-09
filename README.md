@@ -1,2 +1,17 @@
-# DSA-Java
-A structured collection of Data Structures and Algorithms implemented in Java for problem solving, coding interviews, and competitive programming practice.
+# DSA in Java
+
+This repository contains implementations of common Data Structures and Algorithms in Java.
+
+Topics Covered
+- Arrays
+- Strings
+- Recursion
+- Sorting
+- Searching
+- Linked Lists
+- Trees
+- Graphs
+- Dynamic Programming
+
+Goal
+To strengthen problem-solving skills and prepare for coding interviews.
