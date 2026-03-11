@@ -15,15 +15,14 @@ public class PalindromeNumber {
 
     return rev == dup;
   }
-
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-
-    int n = sc.nextInt();
-
-    boolean flag = isPalindrome(n);
-    System.out.println(flag);
-    
-    sc.close();
-  }
+      Scanner sc = new Scanner(System.in);
+  
+      int n = sc.nextInt();
+  
+      boolean isPalindrome = isPalindrome(n);
+      System.out.println(isPalindrome);
+      
+      sc.close();
+    }  
 }
