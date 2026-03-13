@@ -3,7 +3,7 @@ package Math;
 import java.util.Scanner;
 
 public class PalindromeNumber {
-  public static boolean isPalindrome(int n) {
+  public static boolean palindromeChecker(int n) {
     if(n < 0 || n % 10 == 0) return false;
     int rev = 0;
     int dup = n;
@@ -20,7 +20,7 @@ public class PalindromeNumber {
   
       int n = sc.nextInt();
   
-      boolean isPalindrome = isPalindrome(n);
+      boolean isPalindrome = palindromeChecker(n);
       System.out.println(isPalindrome);
       
       sc.close();
